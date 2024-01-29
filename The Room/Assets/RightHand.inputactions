@@ -1,0 +1,34 @@
+{
+    "name": "RightHand",
+    "maps": [
+        {
+            "name": "PrimaryButton",
+            "id": "400022f2-2e68-4eb0-9341-845f17fcbb77",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "dc7450f6-6ea9-450d-8de1-da03577f9949",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f12f55f-b4c0-4002-8d18-b5e409a7ee55",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
