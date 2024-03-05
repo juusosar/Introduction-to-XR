@@ -6,13 +6,13 @@ using UnityEngine.InputSystem;
 
 public class Lights : MonoBehaviour
 {
-    public Light light;
+    public Light _light;
     public InputActionReference lightsAction;
     Color cyan = new Color(0,1,1,1);
 
     void Start()
     {
-        light = GetComponent<Light>();
+        _light = GetComponent<Light>();
         lightsAction.action.performed += ctx => {OnSelect(ctx);};
 
     }
@@ -20,14 +20,14 @@ public class Lights : MonoBehaviour
     private void OnSelect(InputAction.CallbackContext context)
     {
         Debug.Log("Button pressed");
-        Debug.Log(light.color);
-        if (light.color == Color.white)
+        Debug.Log(GetComponent<Light>().color);
+        if (_light.color == Color.white)
         {
-            light.color = cyan;
+            _light.color = cyan;
         }
         else 
         {
-            light.color = Color.white;
+            _light.color = Color.white;
         }
     }
 

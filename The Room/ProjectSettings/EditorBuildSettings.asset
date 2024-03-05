@@ -12,6 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/The Room.unity
     guid: f6ef92d9de772de49bba202a19f13efd
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4c8cda273e83bb14885e964a2e811381,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e563765c4cc2d514abf0fff918e6e70c,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 44d727408d2c0b84eb050bb56252a8d2,
